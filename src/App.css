@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&family=Ubuntu&display=swap');
+body{
+    background-color:darkgray;
+    font-family: 'Rubik', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+}
+.primbox{
+    border: 1px solid wheat;
+    
+    color: white;
+    margin: 20px 30px;
+    padding: 0px 25px 20px 25px ;
+}
+/* .primbox{
+    background-color: rgb(30, 30, 30);
+} */
+.textarea {
+    background-color: rgb(30, 30, 30);
+    color: white;
+}
+.textarea::placeholder {
+    color: #0bf;
+  }
+.textarea:focus{
+    background-color: rgb(30, 30, 30);
+    color: white;
+}
+/* * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+} */
+
+.containercontactme {
+    position: absolute;
+    box-sizing: border-box;
+    
+    transform:  translate(167%, 11%);
+    height: 470px;
+    width: 300px;
+    box-shadow: 0 10px 20px black;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+    font-family: 'Abel', sans-serif;
+}
+
+.image {
+    height: 120px;
+    width: 120px;
+    background-image: url('./IMG_20230803_213026.jpg');
+    background-size: cover;
+    border-radius: 50%;
+    border: 5px solid white;
+    position: relative;
+    top: 200px;
+    margin-left: 170px;
+    box-shadow: 0 2px 15px rgb(58, 54, 54);
+    transform: rotate(-20deg);
+}
+
+.shape {
+    height: 250px;
+    width: 400px;
+    background-color: black;
+    margin-left: -20px;
+    position: relative;
+    top: -80px;
+    box-shadow: 0 2px 15px black;
+    transform: rotate(25deg);
+}
+
+h3 {
+    margin-bottom: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.title {
+    color: rgb(105, 100, 109);
+}
+
+.contact {
+    padding-left: 30px;
+    padding-right: 30px;
+    color: rgb(105, 100, 109);
+    font-size: 22px;
+}
+
+.icons {
+    margin-top: 15px;
+}
+
+.icons i {
+    margin-left: 10px;
+    font-size: 37px;
+    transition: 0.3s;
+    color: rgb(40, 163, 194);
+    ;
+}
+
+.icons i:hover {
+    transform: scale(1.3);
+    color: rgb(18, 192, 235);
+}
+
+
+.custom-active .nav-link{
+    color: #14cedf;
+}
+
+.alert-fixed-top{
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0; /* Ensures full width */
+    z-index: 1040;
+}
+
+
+@media only screen and (min-width:321px) and (max-width:480px) { 
+    .btn {
+        font-size:0.875em;
+        display:block;
+        left:-60px;
+        margin-top:35px;
+        width:100%;
+      }
+    .containercontactme{
+       transform:  translate(13%, 11%);
+    }
+}
