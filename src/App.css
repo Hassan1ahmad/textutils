@@ -117,13 +117,7 @@ h3 {
     color: #14cedf;
 }
 
-.alert-fixed-top{
-    position: sticky;
-    top: 0;
-    left: 0;
-    right: 0; /* Ensures full width */
-    z-index: 1040;
-}
+
 
 
 @media only screen and (min-width:321px) and (max-width:480px) { 
